@@ -1,0 +1,146 @@
+body{
+    margin:0px;
+    padding:0px;
+    background:url("../img/mountain-bg.png") no-repeat;
+    font-family:微软雅黑;
+    line-height:1.4em;
+}
+
+h1,h2,h3,ul,li,p{
+    margin:0px;
+    padding:0;
+}
+
+#wrap{
+    margin:0 auto;
+    margin-top:40px;
+    margin-bottom:10px;
+    width:700px;
+}
+
+#header{
+}
+
+#header img{
+    margin-left:40px;
+}
+
+#menu{
+    width:70px;
+    float:left;
+}
+
+#menu ul{
+    list-style:none;
+    margin-left:10px;
+}
+#menu ul li{
+    width:65px;
+    margin-bottom:20px;
+}
+#menu ul li a{
+    font-size:13px;
+    text-decoration:none;
+    background-color:#d9ead3;
+    color:#38761d;
+    display:block;
+    text-align:right;
+    padding:6px;
+    padding-right:6px
+}
+
+#menu ul li a:hover{
+    color:#d9ead3;
+    background-color:#38761d;
+}
+
+#content{
+    height:300px;
+    width:600px;
+    float:right;
+}
+
+#content .section{
+
+}
+
+#content .section .left{
+    float:left;
+}
+
+#content .section .right{
+    float:right;
+}
+
+#content .spot{
+
+}
+
+#content .place{
+
+}
+
+#content .people{
+
+}
+
+#content .story{
+
+}
+
+#content .misc{
+
+}
+
+.size-4x4{
+    width:280px;
+    height:290px;
+    margin-bottom:10px;
+}
+
+.size-4x2{
+    width:280px;
+    height:140px;
+    margin-bottom:10px;
+}
+#content .spot #huangguoshu{
+    background-image:url("../img/huangguoshu.png");
+    background-repeat: no-repeat;
+    background-color:#38761d;
+    background-position:bottom left;
+}
+
+#content .spot #huangguoshu h2{
+    width: 150px;
+    color: white;
+    margin-left: 130px;
+    padding-top: 20px;
+    letter-spacing:3px;
+}
+
+#content .spot #miaozhai{
+    background-image:url("../img/miaozhai.png");
+    background-repeat: no-repeat;
+    background-color:#ffd900;
+    background-position:bottom right;
+}
+
+#content .spot #miaozhai h2{
+    color: white;
+    margin-left: 20px;
+    padding-top: 20px;
+    letter-spacing:2px;
+}
+#content .spot .photo{
+    float:right;
+    background:url("../img/guo-hanging.jpg") no-repeat;
+}
+
+#footer{
+    clear:both;
+    text-align:center;
+    margin-top:10px;
+}
+.clear{
+    clear:both;
+}
