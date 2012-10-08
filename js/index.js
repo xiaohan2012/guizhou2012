@@ -7,6 +7,6 @@ $(document).ready(function(){
         $(this).siblings().find("a").removeClass("active");
         $(this).find("a").addClass("active");
     });
-    $("#menu li:eq(4)").click() 
+    $("#menu li:eq(1)").click() 
 });
 
