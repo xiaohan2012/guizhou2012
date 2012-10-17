@@ -15,10 +15,11 @@ h1,h2,h3,ul,li,p{
     margin:0 auto;
     margin-top:40px;
     margin-bottom:10px;
-    width:900px;
+    width:940px;
 }
 
 #header{
+    margin-bottom:40px;
 }
 
 #header img{
@@ -52,6 +53,7 @@ h1,h2,h3,ul,li,p{
 #menu ul li a:hover{
     color:#007906;
     background-color:#8df392;
+    cursor:pointer;
 }
 
 #menu ul li a.active{
@@ -62,6 +64,7 @@ h1,h2,h3,ul,li,p{
     height:500px;
     width:800px;
     float:right;
+
 }
 
 #content .section{
@@ -132,6 +135,10 @@ h1,h2,h3,ul,li,p{
     letter-spacing:3px;
 }
 
+#content .section h2:hover{
+    cursor:pointer
+}
+
 #content ul{
     margin-left: 20px;
     margin-top: 10px;
@@ -140,12 +147,12 @@ h1,h2,h3,ul,li,p{
 
 #content ul li{
     float:left;
-    margin-right:5px;
+    margin-right:10px;
 }
 
 #content ul li a{
     text-decoration:none;
-    font-size: 13px;
+    font-size: 15px;
 }
 #huangguoshu{
     background-image:url("../img/huangguoshu.png");
@@ -218,10 +225,11 @@ h1,h2,h3,ul,li,p{
     background-color:#008532;
     background-image:url("../img/train.png");
     background-repeat: no-repeat;
-    background-position:bottom right;
+    background-position:bottom left;
 }
 #train ul{
     width:200px;
+    margin-left:150px;
 }
 #train ul li{
     margin-right:10px;
@@ -270,18 +278,12 @@ h1,h2,h3,ul,li,p{
     font-size:16px;
 }
 
-#guo-mum{
-    background-color:#ee7e1a;
-    background-image:url("../img/guo-mum.png");
-    background-repeat: no-repeat;
-    background-position:bottom right;
-}
 
 #guo{
     background-color:#3556ff;
     background-image:url("../img/guo.png");
     background-repeat: no-repeat;
-    background-position:bottom right;
+    background-position:bottom;
 
 }
 
@@ -289,7 +291,7 @@ h1,h2,h3,ul,li,p{
     background-color:#ff0ed4;
     background-image:url("../img/jianjin.png");
     background-repeat: no-repeat;
-    background-position:bottom right;
+    background-position:bottom;
 }
 
 #hiking{
@@ -299,15 +301,13 @@ h1,h2,h3,ul,li,p{
     background-position:bottom right;
 }
 #hiking ul{
-    width: 140px;
+    width: 220px;
 }
 #hiking ul li{
-    margin-right: 6px;
-    margin-top:4px;
+    margin-top:10px;
 }
 #hiking ul li a{
     color:#fdf5c5;
-    font-size:14px;
 }
 
 #picking-pepper{
@@ -320,27 +320,30 @@ h1,h2,h3,ul,li,p{
     width: 180px;
 }
 #picking-pepper ul li{
+    float:none;
+    margin-top:10px;
 }
 #picking-pepper ul li a{
     color:#f4ced8;
-    font-size:14px;
+    font-size:16px;
 }
 
-#visiting-relative{
-    background-color:#efe101;
+#relatives{
+    background-color:#d9741a;
     background-image:url("../img/visiting-relative.png");
     background-repeat: no-repeat;
     background-position:bottom right;
 }
 
-#visiting-relative ul{
-    width: 200px;
+#relatives ul{
+    width: 350px;
 }
-#visiting-relative ul li{
+#relatives ul li{
+    margin-top:10px;
+    margin-right:20px;
 }
-#visiting-relative ul li a{
-    color:#885804;
-    font-size:14px;
+#relatives ul li a{
+    color:#fde1c7;
 }
 #animal{
     background-color:#4654db;
@@ -350,10 +353,11 @@ h1,h2,h3,ul,li,p{
 }
 
 #animal ul{
-    width: 170px;
+    width: 220px;
 }
 
 #animal ul li a{
+    font-size:15px;
     color:#bdd0f6;
 }
 #animal div{
@@ -361,7 +365,7 @@ h1,h2,h3,ul,li,p{
 }
 
 #insect{
-    background-color:#ff7171;
+    background-color:#ff37c9;
     background-image:url("../img/insect.png");
     background-repeat: no-repeat;
     background-position:bottom;
@@ -373,12 +377,12 @@ h1,h2,h3,ul,li,p{
     margin-top:5px;
 }
 #insect ul li a{
-    color:#fffcce;
+    color:#fddcf4;
     font-size:15px;
 }
 
 #plant{
-    background-color:#03d972;
+    background-color:#007906;
     background-image:url("../img/plant.png");
     background-repeat: no-repeat;
     background-position:bottom;
@@ -389,22 +393,22 @@ h1,h2,h3,ul,li,p{
     margin-top:4px;
 }
 #plant ul li a{
-    color:#005e04;
+    color:#dbffdd;
 }
 #food{
-    background-color:#ffd385;
+    background-color:#ff8c05;
     background-image:url("../img/food.png");
     background-repeat: no-repeat;
     background-position:bottom right;
 }
 #food ul{
-    width: 180px;
+    width: 250px;
 }
 #food ul li {
     margin-top:4px;
 }
 #food ul li a{
-    color:#a46800;
+    color:#f9e4cc;
 }
 .photo{
     float:right;
